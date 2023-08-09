@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="es">
+  <head>
+   <!-- Metadatos -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style/reset.css">
+   <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="./imagenes/logo.png">
+   <!-- iconos awesome -->
+   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <!-- link Boostrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="./style/style.css">
+  </head>
+  <body>
+
+   <header>
+    <h1 id="titulo" class="menu-logo escrita-oscura">Cave<span class="escrita-clara">Web</span></h1>
+<!-- NAV-->  
+    <nav class="navbar navbar-expand-lg">
+      <!-- <h1 class="menu-logo escrita-oscura">Simplex<span class="escrita-clara">Web</span></h1> -->
+  <div class="container-fluid">
+  <!-- <a class="navbar-brand me-auto" href="#"></a> -->
+    <button class="navbar-toggler ms-auto menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a id="home" class="nav-link active" aria-current="page" href="#" onclick="cerrar()">Inicio</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#que-ofrecemos" onclick="cerrar()">Que ofrecemos</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav me-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#nuestra-mision" onclick="cerrar()">Nuestra misión</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nuestros servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#disenio-web"onclick="cerrar()">Diseño web</a></li>
+            <li><a class="dropdown-item" href="#estrategia-digital"onclick="cerrar()">Estrategia web</a></li>
+            <li><a class="dropdown-item" href="#servicios-digitales"onclick="cerrar()">Servicios digitales</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav mx-auto">
+        <!-- lang -->
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle me-auto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Idioma
+          </a>
+          <ul class="dropdown-menu">
+            <li class="lang"><a class="dropdown-item" href="#"onclick="cerrar()">ESP<img src="./assets/esp.svg" alt="esp" class="menu__arrow" ></a></li>
+            <li class="lang"><a class="dropdown-item" href="#"onclick="cerrar()">ITA <img src="./assets/ita.svg" alt="ita" class="menu__arrow" ></a></li>
+            <li class="lang"><a class="dropdown-item" href="#"onclick="cerrar()">ENG<img src="./assets/reino-unido.svg" alt="eng" class="menu__arrow" ></a></li>
+            <li class="lang"><a class="dropdown-item" href="#"onclick="cerrar()">FRA <img src="./assets/fr.svg" alt="fra" class="menu__arrow" ></a></li>
+            <li class="lang"><a class="dropdown-item" href="#"onclick="cerrar()">POR <img src="./assets/por.svg" alt="por" class="menu__arrow" ></a></li>
+          </ul>
+        </li>
+        <!-- END lang -->
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<!-- END NAV -->
+
+<div class="contenedor">
+
+<!-- Section MAIN -->
+<main class="zona1">
+  <section id="inicio" class="hero">
+  <div class="container">
+      <div class="row principal">
+          <div class="col-md-4 col-lg-4">
+              <h2 class="grow">Creamos tu sitio web</h2>
+              <h4><strong>Potenciamos tu negocio</strong></h4>
+              <ul class="lista"><li>Eficiente</li></ul>
+              <ul class="lista"><li>A tu medida</li></ul>
+              <ul class="lista"><li>Full Responsive</li></ul>
+              <p class="texto">"Lo simple vende, lo simple es usable, y lo simple escala.” <strong class="negrita">Rand Fishkin</strong></p>
+              
+    
+          </div>
+          <div class="col-md-8 col-lg-8">
+              <figure>
+                  <img src="./imagenes/02-unsplash.jpg" class="img-p" alt="">
+              </figure>
+          </div>
+          <div class="wave">
+          </div>
+      </div>
+  </div> <!-- END CONTAINER -->
+  </section>
+</main>
+<!-- END Section MAIN -->
+<br><br>
+
+      <div class="container primera-parte"id="que-ofrecemos">
+        <section class="q-ofrecemos seccion-uno">
+            <h2 class="seccion-titulo">Que ofrecemos</h2>
+            <p class="seccion-texto">Nos ocupamos de simplificar tu actividad, de potenciarla a través de servicios digitales. Comenzamos por comprender profundamente tus
+            necesidades, analizando tu negocio.</p>
+            <p>Sin importar tu rubro, nuestro foco es ofrecer herramientas digitales que hagan tu gestión más simple y eficiente.</p>
+            <p>Pregúntate cómo y dónde tu actividad deba ser visible y atractiva, y nosotros te ayudamos a lograrlo.</p> 
+        </section>
+      </div>
+      <div class="container"id="nuestra-mision" >
+        <section class="q-ofrecemos seccion-uno">
+            <h2 class="seccion-titulo">Nuestra misión</h2>
+            <p class="seccion-texto">Proveer a los emprendedores y a las pequeñas empresas sitios webs y servicios digitales, sostenibles acorde a su modelo de negocio.
+            </p>
+        </section>
+      </div>
+
+
+<section> 
+  <div id="disenio-web" class="container ">
+      <div class="row secundario seccion-uno">
+          <h2 class="seccion-titulo">Diseño web</h2>
+          <p class="seccion-texto">El diseño de una página web es un elemento clave para tu actividad y visibilidad.</p>
+
+ 
+          <div class="row">
+          <div class="col-md-6 col-lg-4 seccion-disenio">
+
+              <h3>Sitio web</h3>
+              <figure>
+                  <img src="./imagenes/01_pencil_design_illustration_color_art_drawing.png" class="derecha"alt="">
+              </figure>
+              <p class="texto-logo">Diseñamos tu sitio web acorde a tus necesidades.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 seccion-disenio">
+
+              <h3>Hosting</h3>
+              <figure>
+                <img src="./imagenes/hosting.png" class="derecha"alt="">
+            </figure>
+              <p class="texto-logo">Nos ocupamos de alojar tu sitio en un servidor, proporcionando tecnología y recursos para que tu sitio web funcione de forma eficaz y segura.</p>
+          </div>
+          <div class="col-md-6 col-lg-4 seccion-disenio">
+
+              <h3>Dominio mail</h3>
+              <figure>
+                <img src="./imagenes/2_pencil_drawing_design_illustration_color_art.png" class="derecha"alt="">
+            </figure>
+              <p class="texto-logo">
+                Un correo electrónico profesional con tu marca genera confianza en el cliente.
+              </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div id="estrategia-digital" class="container">
+    <section class="q-ofrecemos seccion-uno">
+        <h2 class="seccion-titulo">Estrategia digital</h2>
+        <p class="seccion-texto">Usamos los estándares del sistema HTML5 para que tu sitio tenga una ágil velocidad de descarga, correcta visibilidad en todo tipo de dispositivos y óptimo posicionamiento en los buscadores.</p>
+    </section>
+  </div>
+</main>
+
+<!-- comienzo de las card -->
+<div class="container text-center">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 columna">
+            <div class="card">
+                <img src="./imagenes/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg" class="card-img-top image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Usabilidad y accesibilidad</h5>
+                  <p class="card-text">Facilidad de manejo y mayor cantidad de personas navegando tu página.</p>
+      
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 columna2">
+            <div class="card">
+                <img src="./imagenes/computer.jpeg" class="card-img-top image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Multi Browser</h5>
+                  <p class="card-text">Visualización en los navegadores más importantes. Los visitantes podrán visualizar los contenidos en forma óptima y simple.
+                  </p>
+         
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 columna3">
+            <div class="card">
+                <img src="./imagenes/03-unsplash.jpg" class="card-img-top image" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Adaptable</h5>
+                  <p class="card-text">Sitio Web adaptable al tamaño de cada pantalla. Este diseño optimiza la velocidad de carga del sitio, mejorando la experiencia del usuario.</p>
+       
+                </div>
+              </div>
+        </div>
+    </div>
+</div> <!-- END CONTAINER -->
+
+<div id="servicios-digitales" class="container">
+  <section class="q-ofrecemos seccion-uno">
+      <h2 class="seccion-titulo">Servicios digitales</h2>
+      <p class="seccion-texto">Diseñar un servicio digital simple e intuitivo, para formar nuevas capacidades diferenciadoras de tu negocio.</p>
+    </section>
+</div>
+
+       <!-- Seccion contacto -->
+       <section class="contacto seccion-oscura" id="contact">
+        <div class="container">
+          <div class="container text-left rectangulo d-flex justify-content-evenly">
+         
+            <div class="row">
+  
+              <div class="col-12 descripcion">
+                <h4>Contactanos para desarrollar tu web</h4>
+            </div>
+        
+              <div class="col-12 col-md-4 descripcion">
+                <label for="nameid" class="for-label">Nombre</label>
+                <input type="text" class="form-control" id="nameid" required>
+            </div>
+            <div class="invalid-tooltip">
+                Todo bien
+            </div>
+            <div class="invalid-tooltip">
+                Es necesario poner el nombre
+            </div>
+  
+            <div class="col-12 col-md-4 descripcion">
+                <label for="nameid" class="for-label">Apellido</label>
+                <input type="text" class="form-control" id="lastnameid" required>
+            </div>
+            <div class="invalid-tooltip">
+                Todo bien
+            </div>
+            <div class="invalid-tooltip">
+                Es necesario poner el nombre
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+                <label for="telefono" class="for-label">Telefono</label>
+                <input type="text" class="form-control" id="telefono" required>
+            </div>
+            <!-- MAil -->
+            <div class="col-12 col-md-4 descripcion">
+            <label for="email-cliente" class="for-label">Escibe tu mail</label>  
+            <input type="email" class="form-control" id="email-cliente" required>
+            </div>
+            <!-- END MAil -->
+            <div class="col-12 col-md-4 descripcion">
+                <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col-lg-4 col-md-8 position-relative">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="terms" required>
+                    <label for="terms" class="form-check-label">Autorizo el uso de datos personales.</label>
+                </div>
+            </div>
+            <div class="invalid-tooltip">
+                Todo bien
+            </div>
+            <div class="invalid-tooltip">
+                Es necesario aceptar los terminos
+            </div>
+  
+               <!-- Contactame para desarrollar tu web -->
+           
+              <div class="col-12 col-md-4 descripcion">
+                <a href="mailto:morellogiselle@gmail.com">
+                  <button type="button">
+                  Enviar
+                  </button>
+                </a>
+               </div> 
+            </div>
+          </div>
+        </div>
+       </section>
+       <div class="container" ><a href="#inicio"><img src="./imagenes/flecha-hacia-arriba.png" alt="..." class="flecha-subir"></a></div>
+
+       <!-- Section Footer -->   
+  <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="footer-parrafo">Copyright &copy; 2023 · Power by SimplexWeb </p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./main/main.js"></script>
+</body>
+</html>
+

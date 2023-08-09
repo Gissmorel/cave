@@ -1,0 +1,374 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans&family=Source+Sans+Pro&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #424242;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+.seccion-titulo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.escrita-clara {
+    color: lightgreen;
+}
+ p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+ }
+
+.grow {
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    padding: 8px 0 25px 0;
+    /* border-top: solid 2px #8080804d;
+    border-bottom: solid 2px #8080804d; */
+}
+            @keyframes grow {
+                from {
+                    font-size: 8px;
+                }
+                to  {
+                    font-size: 35px;
+                }
+            }
+
+/* NAV */
+
+    header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eff6f7;
+    transition: 0.7s;
+    z-index: 1;
+    }
+    
+    header.abajo {
+        background-color: #fff;
+        padding: 8px 10px;
+        color: #424242;
+    } 
+    
+    header nav ul li a {
+    position: relative;
+    letter-spacing: 2px;
+    transition: 0.7s;
+}
+   .zona1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   }
+
+    .menu{
+        /* background-color: #eff6f7; */
+        font-weight: bold;
+    }
+
+    .nav-item a:hover {
+        border:2px solid #666;
+        border-style: dotted;
+        color:#424242;
+        font-weight: bold;
+        font-size: 1.05rem;
+
+    }
+    #home:hover {
+        color: lightgreen;
+        background-color: #607866;
+    } 
+
+    .dropdown-menu a:hover {
+        background-color: #9ea1a2;
+        color: #fff;
+    }
+
+    .lang {
+        display: flex;
+        justify-content: space-between;
+        text-align: justify;    
+    }
+
+/* Bandera */
+img{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    transform: var(--transform);
+    transition: transform .3s;
+    float: left;
+}
+
+.principal {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 100px 10px 100px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista {
+    list-style-type:georgian;
+}
+
+.img-p {
+    width: 92%;
+    margin: 5% 1% 5% 1%;
+    transition: transform .2s;
+    box-shadow: 0px 0px 15px 15px #607866;
+    -webkit-box-shadow: 0px 0px 15px 15px #607866;
+}
+.img-p:hover {
+    transform: scale(1.04); 
+}
+.negrita {
+    font-weight: bold;
+}
+.texto {
+    font-style: italic;
+    font-size: 1em;
+}
+/* efecto ola */
+.hero {
+    background-color: #eff6f7;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 110vh;
+    padding: 20px 0;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../imagenes/wave.png);
+    background-size: 1000px 100px;
+    animation: wave 10s linear infinite;
+}
+@keyframes wave {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+.container {
+    padding: 5px 0 5px 0;
+    margin-top:10px;
+    
+}
+.secundario {
+    position: relative;
+    margin: 0 0 10px 0;
+    background-color: #eff6f7;
+    padding: 5px 0;
+}
+
+/* Seccion Que hacemos */
+
+.q-ofrecemos {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+.q-ofrecemos:hover, .card:hover{
+    background-color: #607866;
+    color: #fff;
+}
+
+.seccion-uno {
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 80px;
+}
+/* Icono de la card */
+.derecha {
+    float: left;
+}
+.card {
+    background-color: #eff6f7;
+    border: solid 2px #8080804d;
+    margin-top: 0.6rem;
+ }
+ .card-body {
+    height: 160px;
+ }
+ .texto-logo, .card-text {
+    font-size: 1rem;
+ }
+ .card-text {
+    text-align: left;
+ }
+ .seccion-disenio {
+    margin: 10px 0;
+    padding: 10px;
+ }
+.card-img-top {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color {
+    margin-top: 0;
+    margin-bottom: 20px;
+ 
+}
+/* Contacto */
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.contacto .rectangulo {
+    margin-top: 1rem;
+    background-color:rgba(0, 0, 0, 0.109);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px #666;
+
+}
+.contacto .row {
+    width: 100%;
+    display: flex;
+ 
+    
+}
+.contacto .descripcion {
+    color: #17191b;
+    font-size: 1.2rem;
+}
+.contacto button {
+    color: #17191b;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+    background-color: lightgreen;
+    color: rgb(43, 41, 41);
+    zoom: unset;
+
+}
+
+/* flecha subir */
+.flecha-subir {
+position: sticky;
+top:100px;
+display:inline-block;
+}
+
+/* Footer */
+footer {
+    padding: 2rem;
+    /* background-color: #1A202C; */
+    background-color: #eff6f7;
+    margin: 30px 0 0 0;
+}
+.footer-parrafo {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #17191b;
+    letter-spacing: 2px;
+    
+}
+/* icono */
+
+.fa {
+    background-color: rgb(57, 52, 52);
+    border-radius: 50%;
+}
+i:hover:not(.active) {
+    background-color: #66ff66;
+    transition: 2s;
+}
+
+
+/* Adaptable responsivo */
+@media screen and (max-width: 400px) {
+
+
+}
+@media screen and (max-width: 767px) {
+
+    .container {
+        padding-top: 5px;
+        margin-top:5px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 27px;
+        letter-spacing: 1px;
+    }
+  
+.hero {
+    height: 130vh;
+}
+.img-p {
+    width: 100%;
+    margin: 15px 0 0 0;    
+}
+
+.q-ofrecemos, .estrategia {
+    height: auto;
+    margin: 10px 0px;
+    padding-left: 15px;
+}
+
+.card {
+    margin-top: 0.5rem;
+  }
+  .texto-logo, .card-text {
+    font-size: 14px;
+  }
+.image {
+    height:17rem;
+  }
+  
+  .seccion-uno {
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.primera-parte {
+    padding-top: 130px;
+}
+}
